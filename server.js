@@ -14,3 +14,7 @@ app.get('/',function(req,res){
 app.get('/about',function(req,res){
     res.sendFile(__dirname+ '/about.html');
 });
+
+app.get('/projects',function(req,res){
+    res.sendFile(__dirname+'/projects.html')
+});

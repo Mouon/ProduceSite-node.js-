@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- 텍스트 덮어쓰기 -->
+  <style>
+    .hide-link-text {
+      text-decoration: none !important;
+      color: inherit !important;
+    }
+    .section-title {
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+      position: relative;
+    }
+    
+    .project-details {
+      font-size: 1.1rem;
+    }
+    .project-description {
+      font-size: 1.2rem;
+    }
+    .role {
+      font-size: 1.1rem;
+    }
+    .footer-space {
+      margin-bottom: 6rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">Moon Coding Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <div class="text-center">
+      <img src="/bangwool.png" class="img-fluid" alt="" style="max-width: 150px;">
+    </div>
+    <h1 class="text-center">BanwoolZ Projects</h1>
+    <p class="text-center project-description">Social pomodoro timer</p>
+    <br><br>
+    <h3 class="section-title">Project Duration</h3>
+    <p class="project-details">2023-06-27 ~ 2023-08-11</p>
+    <h3 class="section-title">참여 인원</h3>
+    <p class="project-details">9명</p>
+    <h3 class="section-title">GitHub Repository</h3>
+    <p class="project-details">
+      <a class="hide-link-text" href="https://github.com/bangwoolz/bangwool-frontend-android">
+        <span class="sr-only">GitHub 리포지토리</span>
+        <img src="/github.png" alt="" width="50" height="50">
+      </a>
+    </p>
+    <h3 class="section-title">Key features</h3>
+    <ul>
+      <li>
+        <p class="project-details"><strong>소셜 로그인</strong></p>
+        <p class="project-details">
+          소셜 서비스를 통한 로그인을 지원합니다. 계정을 이용해 자신의 업무 라벨 목록, 소셜에 작성한 글/댓글 목록, 통계, 진척도 정보 등을 불러올 수 있습니다.
+        </p>
+      </li>
+      <li>
+        <p class="project-details"><strong>업무 타이머 기능</strong></p>
+        <p class="project-details">
+          업무 시간 관리 기법인 뽀모도로 기법을 적용한 타이머를 사용할 수 있습니다. 진행하고 있는 업무가 무엇인지 미리 지정한 라벨 목록을 이용해 표현할 수 있습니다.
+        </p>
+      </li>
+      <li>
+        <p class="project-details"><strong>통계 기능</strong></p>
+        <p class="project-details">
+          업무 시간에 대한 통계를 제공합니다.
+        </p>
+        <p class="project-details">
+          (1) 캘린더 형식으로 언제 업무를 진행했는지를 제시
+        </p>
+        <p class="project-details">
+          (2) 총 업무 시간 등 종합적인 수치 제시
+        </p>
+      </li>
+      <li>
+        <p class="project-details"><strong>소셜 기능</strong></p>
+        <p class="project-details">
+          (1) 같은 업무를 하는 사람이나 시간 관리에 관심이 있는 사람들과 간단한 의사소통을 하며 함께 노하우나 고민점 등을 주고받을 수 있습니다.
+        </p>
+        <p class="project-details">
+          (2) 위의 통계 기능과 연계하여 인스타그램을 통해 내 기록을 공유할 수 있습니다.
+        </p>
+      </li>
+      <li>
+        <p class="project-details"><strong>진척도 시스템</strong></p>
+        <p class="project-details">
+          사용자에게 동기를 부여하는 목적으로 위의 소셜 기능과 연계하여 진척도 시스템을 제공합니다. 일정 시간, 횟수 이상 업무를 수행하면 칭호나 레벨 등을 부여합니다.
+        </p>
+      </li>
+    </ul>
+    <h3 class="section-title">Skill Stack</h3>
+    <p>
+      <img src="/stack.jpeg" class="img-fluid" alt="" style="max-width: 500px;">
+    </p>
+    <h3 class="section-title">My Role</h3>
+    <p class="role"><strong>안드로이드 파트</strong>로 개발에 참여하게되었습니다.</p>
+    <p class="role">회원가입, 랭킹, 마이페이지, 비밀번호 찾기 등의 화면 구성, API 연동, 기능 구현을 담당하였습니다.</p>
+    <p class="role">이 정도 규모의 모바일 어플리케이션 개발 경험이 없어서 개발 초반에 반응형 디자인 등에 어려움이 있었지만, PM의 도움으로 많은 것을 배울 수 있었던 프로젝트였습니다.</p>
+    <p class="role">현재 세부적 기능 추가 구현과 버그 해결 등을 마치고 어플런칭을 할 계획을 갖고 있습니다.</p>
+    <div class="footer-space"></div>
+  </div>
+
+  <!-- Link to Bootstrap JS (Popper.js and Bootstrap scripts) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
